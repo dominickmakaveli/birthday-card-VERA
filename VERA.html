@@ -91,6 +91,21 @@
         font-style: italic;
         font-size: 18px;
       }
+      .photo {
+        display: block;
+        width: 50%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 18px;
+        box-shadow: 0 12px 22px rgba(0, 0, 0, 0.12);
+        margin: 14px auto 18px;
+        transform: translateY(0);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+      .photo:hover {
+        transform: translateY(-4px) scale(1.01);
+        box-shadow: 0 16px 28px rgba(0, 0, 0, 0.18);
+      }
       .heart-line {
         display: flex;
         gap: 8px;
@@ -272,6 +287,7 @@
         feel warm and the hard days feel lighter. <strong>Hongera mpenzi</strong> on
         choosing yourself and starting a new chapter with courage and hope.
       </p>
+      <img class="photo" src="IMG-20260204-WA0003.jpg" alt="Vera memory 1" />
       <p class="message">
         You are my favorite hello and my soft place to land. Every day with you feels
         like a little miracle, and I love the way your smile makes the whole world gentler.
@@ -282,14 +298,18 @@
         <strong>Usikate tamaa</strong> -- your light is still growing, and your dreams are
         still valid. <strong>You are stronger than you imagine</strong>, and I believe in you.
       </p>
+      <img class="photo" src="IMG-20260204-WA0002.jpg" alt="Vera memory 3" />
       <p class="message">
         Here is to the laughs we keep, the dreams we build, and the moments we have not
         even imagined yet. <strong>Nakupenda sana</strong>, and I am so grateful for you.
       </p>
+      <img class="photo" src="IMG-20260204-WA0001.jpg" alt="Vera memory 4" />
       <p class="message">
         If I could, I would wrap this page around you like a hug. Until then, keep this:
         I choose you, again and again.
       </p>
+
+
 
       <div class="heart-line">with all my love</div>
 
@@ -306,4 +326,3 @@
     </script>
   </body>
 </html>
-
